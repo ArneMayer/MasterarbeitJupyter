@@ -1,0 +1,1 @@
+{"chunk_size":1000,"column_name":"C_ID","results":[{"quotient_size":10,"remainder_size":0,"runtime":35865},{"quotient_size":10,"remainder_size":8,"runtime":20286},{"quotient_size":10,"remainder_size":16,"runtime":26442},{"quotient_size":10,"remainder_size":32,"runtime":38876}],"table_name":"CUSTOMER","warehouse_size":1}
