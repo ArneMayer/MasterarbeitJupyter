@@ -13,11 +13,6 @@
             "type": "int"
         },
         {
-            "name": "quotient_size",
-            "nullable": false,
-            "type": "int"
-        },
-        {
             "name": "remainder_size",
             "nullable": false,
             "type": "int"
