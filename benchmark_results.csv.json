@@ -1,0 +1,40 @@
+{
+    "auto_compress": false,
+    "chunk_size": 0,
+    "columns": [
+        {
+            "name": "row_count",
+            "nullable": false,
+            "type": "int"
+        },
+        {
+            "name": "chunk_size",
+            "nullable": false,
+            "type": "int"
+        },
+        {
+            "name": "quotient_size",
+            "nullable": false,
+            "type": "int"
+        },
+        {
+            "name": "remainder_size",
+            "nullable": false,
+            "type": "int"
+        },
+        {
+            "name": "run_time",
+            "nullable": false,
+            "type": "int"
+        }
+    ],
+    "config": {
+        "delimiter": "\n",
+        "delimiter_escape": "\\",
+        "escape": "\"",
+        "quote": "\"",
+        "reject_quoted_nonstrings": true,
+        "rfc_mode": true,
+        "separator": ","
+    }
+}
