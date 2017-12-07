@@ -1,6 +1,5 @@
 {
     "auto_compress": false,
-    "chunk_size": 0,
     "columns": [
         {
             "name": "row_count",
