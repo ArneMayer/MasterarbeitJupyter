@@ -1,6 +1,5 @@
 {
     "auto_compress": false,
-    "chunk_size": 0,
     "columns": [
         {
             "name": "row_count",
@@ -11,6 +10,11 @@
             "name": "chunk_size",
             "nullable": false,
             "type": "int"
+        },
+        {
+            "name": "pruning_ratio",
+            "nullable": false,
+            "type": "double"
         },
         {
             "name": "remainder_size",
