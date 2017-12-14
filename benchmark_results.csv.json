@@ -12,6 +12,11 @@
             "type": "int"
         },
         {
+            "name": "pruning_ratio",
+            "nullable": false,
+            "type": "double"
+        },
+        {
             "name": "remainder_size",
             "nullable": false,
             "type": "int"
