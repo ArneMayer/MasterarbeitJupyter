@@ -22,6 +22,16 @@
             "type": "int"
         },
         {
+            "name": "dictionary",
+            "nullable": false,
+            "type": "int"
+        },
+        {
+            "name": "btree",
+            "nullable": false,
+            "type": "int"
+        },
+        {
             "name": "run_time",
             "nullable": false,
             "type": "int"
