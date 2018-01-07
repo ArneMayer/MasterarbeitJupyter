@@ -47,6 +47,11 @@
             "type": "int"
         },
         {
+            "name": "size",
+            "nullable": false,
+            "type": "int"
+        },
+        {
             "name": "run_time",
             "nullable": false,
             "type": "int"
