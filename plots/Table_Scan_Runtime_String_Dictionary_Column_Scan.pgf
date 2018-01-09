@@ -627,7 +627,10 @@
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=3.075000in,y=3.603333in,,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont Table Scan Runtime: String Dictionary Column Scan}%
+\pgftext[x=1.133716in,y=3.789954in,left,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont Table Scan Runtime: String Dictionary Column Scan}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgftext[x=-0.160352in,y=3.603333in,left,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont Chunk Size: 1'000'00, Row Count: 10'000'000, Pruning Rate: 50\%, Selectivity: 1/3000}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%

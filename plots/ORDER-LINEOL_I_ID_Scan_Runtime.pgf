@@ -933,7 +933,10 @@
 \pgfusepath{stroke}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=3.075000in,y=3.603333in,,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont ORDER-LINE::OL\_I\_ID Scan Runtime}%
+\pgftext[x=1.744922in,y=3.789954in,left,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont ORDER-LINE::OL\_I\_ID Scan Runtime}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgftext[x=1.413582in,y=3.598695in,left,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont Chunk Size: 100'000, Row Count: 1'000'000}%
 \end{pgfscope}%
 \end{pgfpicture}%
 \makeatother%
