@@ -12,7 +12,7 @@
             "type": "string"
         },
         {
-            "name": "warehouse_size",
+            "name": "row_count",
             "nullable": false,
             "type": "int"
         },
