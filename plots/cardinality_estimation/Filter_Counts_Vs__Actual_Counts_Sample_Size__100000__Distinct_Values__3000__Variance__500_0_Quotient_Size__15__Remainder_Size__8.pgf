@@ -1142,7 +1142,7 @@
 \pgftext[x=0.781136in,y=3.789954in,left,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont Sample Size: 100000, Distinct Values: 3000, Variance: 500.0}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=2.386198in,y=3.603333in,left,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont Remainder Size: 8}%
+\pgftext[x=1.682829in,y=3.603333in,left,base]{\sffamily\fontsize{12.000000}{14.400000}\selectfont Quotient Size: 15, Remainder Size: 8}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfsetbuttcap%
