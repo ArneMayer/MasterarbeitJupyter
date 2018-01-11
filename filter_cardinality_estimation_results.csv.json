@@ -2,7 +2,7 @@
     "auto_compress": false,
     "columns": [
         {
-            "name": "sample_size",
+            "name": "value_count",
             "nullable": false,
             "type": "int"
         },
