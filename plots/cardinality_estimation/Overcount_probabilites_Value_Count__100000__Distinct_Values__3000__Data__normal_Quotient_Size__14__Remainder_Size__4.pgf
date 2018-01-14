@@ -303,7 +303,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.215698in,y=0.447238in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.0000}%
+\pgftext[x=0.374661in,y=0.447238in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -338,7 +338,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.215698in,y=1.063565in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.0002}%
+\pgftext[x=0.374661in,y=1.063565in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.02}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -373,7 +373,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.215698in,y=1.679892in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.0004}%
+\pgftext[x=0.374661in,y=1.679892in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.04}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -408,7 +408,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.215698in,y=2.296218in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.0006}%
+\pgftext[x=0.374661in,y=2.296218in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.06}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -443,10 +443,10 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.215698in,y=2.912545in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.0008}%
+\pgftext[x=0.374661in,y=2.912545in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.08}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.160143in,y=2.010000in,,bottom,rotate=90.000000]{\sffamily\fontsize{10.000000}{12.000000}\selectfont probability [\%]}%
+\pgftext[x=0.319105in,y=2.010000in,,bottom,rotate=90.000000]{\sffamily\fontsize{10.000000}{12.000000}\selectfont probability [\%]}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %

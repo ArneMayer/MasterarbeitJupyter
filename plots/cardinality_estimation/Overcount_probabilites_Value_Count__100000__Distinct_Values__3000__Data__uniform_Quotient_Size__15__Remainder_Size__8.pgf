@@ -303,7 +303,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=0.447238in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00000}%
+\pgftext[x=0.295180in,y=0.447238in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.000}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -338,7 +338,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=0.789642in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00005}%
+\pgftext[x=0.295180in,y=0.789642in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.005}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -373,7 +373,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=1.132046in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00010}%
+\pgftext[x=0.295180in,y=1.132046in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.010}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -408,7 +408,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=1.474449in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00015}%
+\pgftext[x=0.295180in,y=1.474449in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.015}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -443,7 +443,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=1.816853in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00020}%
+\pgftext[x=0.295180in,y=1.816853in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.020}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -478,7 +478,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=2.159257in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00025}%
+\pgftext[x=0.295180in,y=2.159257in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.025}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -513,7 +513,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=2.501660in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00030}%
+\pgftext[x=0.295180in,y=2.501660in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.030}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -548,7 +548,7 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=2.844064in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00035}%
+\pgftext[x=0.295180in,y=2.844064in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.035}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
@@ -583,10 +583,10 @@
 \end{pgfscope}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.136217in,y=3.186467in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.00040}%
+\pgftext[x=0.295180in,y=3.186467in,left,base]{\sffamily\fontsize{10.000000}{12.000000}\selectfont 0.040}%
 \end{pgfscope}%
 \begin{pgfscope}%
-\pgftext[x=0.080661in,y=2.010000in,,bottom,rotate=90.000000]{\sffamily\fontsize{10.000000}{12.000000}\selectfont probability [\%]}%
+\pgftext[x=0.239624in,y=2.010000in,,bottom,rotate=90.000000]{\sffamily\fontsize{10.000000}{12.000000}\selectfont probability [\%]}%
 \end{pgfscope}%
 \begin{pgfscope}%
 \pgfpathrectangle{\pgfqpoint{0.750000in}{0.500000in}}{\pgfqpoint{4.650000in}{3.020000in}} %
