@@ -2,6 +2,16 @@
     "auto_compress": false,
     "columns": [
         {
+            "name": "table_name",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "name": "column_name",
+            "nullable": false,
+            "type": "string"
+        },
+        {
             "name": "data_type",
             "nullable": false,
             "type": "string"
