@@ -22,14 +22,9 @@
             "type": "string"
         },
         {
-            "name": "quotient_size",
+            "name": "estimation_technique",
             "nullable": false,
-            "type": "int"
-        },
-        {
-            "name": "remainder_size",
-            "nullable": false,
-            "type": "int"
+            "type": "string"
         },
         {
             "name": "error",
