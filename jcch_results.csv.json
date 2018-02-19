@@ -12,6 +12,11 @@
             "type": "string"
         },
         {
+            "name": "data_type",
+            "nullable": false,
+            "type": "string"
+        },
+        {
             "name": "row_count",
             "nullable": false,
             "type": "int"
@@ -20,6 +25,16 @@
             "name": "chunk_size",
             "nullable": false,
             "type": "int"
+        },
+        {
+            "name": "pruning_rate",
+            "nullable": false,
+            "type": "double"
+        },
+        {
+            "name": "selectivity",
+            "nullable": false,
+            "type": "double"
         },
         {
             "name": "quotient_size",
