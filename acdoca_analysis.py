@@ -1,12 +1,12 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('/mnt/data/tmp_arne_ma/data/acdoca/acdoca10M.csv')
+df = pd.read_csv('/mnt/data/tmp_arne_ma/data/acdoca/acdoca1M.csv')
 column_count = len(df.columns)
 row_count = len(df)
 chunk_size = 100000
 sample_size = 10
-chunk_count = ceil(row_count / chunk_size)
+chunk_count = math.ceil(row_count / chunk_size)
 
 print("Row count: " + row_count)
 print("Chunk size: " + chunk_size)
@@ -21,7 +21,7 @@ for column_id in range(0, column_count):
                 table_offset = chunk_id * chunk_size + chunk_offset
                 if table_offset >= row_count:
                     break
-                value = df[column_id].iloc[value]
+                value = df[column_id].iloc[table_offset]
                 if value == scan_value:
                     chunk_prunable = False
             if chunk_prunable:
