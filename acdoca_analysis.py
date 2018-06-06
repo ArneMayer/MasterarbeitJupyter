@@ -8,10 +8,11 @@ column_count = len(df.columns)
 row_count = len(df)
 chunk_size = 100000
 sample_size = 10
-chunk_count = math.ceil(row_count / chunk_size)
+chunk_count = int(math.ceil(row_count / chunk_size))
 
 print("Row count: " + str(row_count))
 print("Chunk size: " + str(chunk_size))
+print("Chunk count:" + str(chunk_count))
 
 for column_id in range(0, column_count):
     pruned_chunks = 0
