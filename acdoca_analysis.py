@@ -9,8 +9,8 @@ chunk_size = 100000
 sample_size = 10
 chunk_count = math.ceil(row_count / chunk_size)
 
-print("Row count: " + row_count)
-print("Chunk size: " + chunk_size)
+print("Row count: " + str(row_count))
+print("Chunk size: " + str(chunk_size))
 
 for column_id in range(0, column_count):
     pruned_chunks = 0
