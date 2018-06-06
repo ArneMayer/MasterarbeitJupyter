@@ -15,14 +15,14 @@ print("Chunk size: " + str(chunk_size))
 for column_id in range(0, column_count):
     pruned_chunks = 0
     for n in range(0, sample_size):
-        scan_value = df[column_id].iloc[random.randint(0,row_count - 1)]
+        scan_value = df.iloc[random.randint(0,row_count - 1)][column_id]
         for chunk_id in range(0, chunk_count):
             chunk_prunable = True
             for chunk_offset in range(0, chunk_size):
                 table_offset = chunk_id * chunk_size + chunk_offset
                 if table_offset >= row_count:
                     break
-                value = df[column_id].iloc[table_offset]
+                value = df.iloc[table_offset][column_id]
                 if value == scan_value:
                     chunk_prunable = False
             if chunk_prunable:
