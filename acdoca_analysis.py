@@ -2,19 +2,20 @@ import pandas as pd
 import numpy as np
 import math
 import random
+from threading import Thread
 
 df = pd.read_csv('/mnt/data/tmp_arne_ma/data/acdoca/acdoca1M.csv')
 column_count = len(df.columns)
 row_count = len(df)
 chunk_size = 100000
-sample_size = 1
+sample_size = 10
 chunk_count = int(math.ceil(row_count / float(chunk_size)))
 
 print("Row count: " + str(row_count))
 print("Chunk size: " + str(chunk_size))
 print("Chunk count:" + str(chunk_count))
 
-for column_id in range(0, column_count):
+def analyze_column(column_id):
     pruned_chunks = 0
     for n in range(0, sample_size):
         scan_value = df.iloc[random.randint(0,row_count - 1)][column_id]
@@ -32,3 +33,12 @@ for column_id in range(0, column_count):
 
     pruning_rate = pruned_chunks / float(chunk_count * sample_size)
     print("Pruning rate for column {}: {}".format(column_id, pruning_rate))
+
+threads = []
+for column_id in range(0, column_count):
+    t = Thread(target=analyze_column, args=(column_id,))
+    t.start()
+    threads.append(t)
+
+for i in range(0, len(threads)):
+    threads[i].join()
