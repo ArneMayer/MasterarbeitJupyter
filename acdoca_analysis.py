@@ -8,7 +8,7 @@ column_count = len(df.columns)
 row_count = len(df)
 chunk_size = 100000
 sample_size = 10
-chunk_count = int(math.ceil(row_count / chunk_size))
+chunk_count = int(math.ceil(row_count / float(chunk_size)))
 
 print("Row count: " + str(row_count))
 print("Chunk size: " + str(chunk_size))
