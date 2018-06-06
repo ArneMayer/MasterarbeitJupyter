@@ -7,7 +7,7 @@ df = pd.read_csv('/mnt/data/tmp_arne_ma/data/acdoca/acdoca1M.csv')
 column_count = len(df.columns)
 row_count = len(df)
 chunk_size = 100000
-sample_size = 10
+sample_size = 1
 chunk_count = int(math.ceil(row_count / float(chunk_size)))
 
 print("Row count: " + str(row_count))
